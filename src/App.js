@@ -1,24 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
-
+import ControlledComponent from './components/ControlledComponent';
+import ControlledCom from './components/ControlledCom';
+import AddNumbers from './components/AddNumbers';
+import UseStateDemo from './components/UseStateDemo';
+import IncreaseCount from './components/IncreaseCount';
+import UseEffect2 from './components/UseEffect2';
+import Component1 from './components/WithoutContext';
+import UserContext from './UserContext';
+import WithContext from './WithContext'
+import UnControlledComp from './components/UnControlledComp';
+import { isCompositeComponent } from 'react-dom/test-utils';
+import Main from './Main';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      {/* <ControlledComponent/> */}
+      {/* <ControlledCom/> */}
+      {/* <AddNumbers/> */}
+      {/* <UseStateDemo/> */}
+      {/* <IncreaseCount/>   */}
+      {/* <UseEffect2/> */}
+      {/* <Test/> */}
+{/* <WithOutContext/> */}
+      {/* <WithContext/> */}
+      {/* <UnControlledComp/> */}
+      {/* <UseEffectDemo/> */}
+      {/* <Component1/> */}
+      <Main/>
+           </div>
   );
 }
 
